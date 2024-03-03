@@ -1,0 +1,67 @@
+/* Styles for the register page */
+.register-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-page h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-page form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.register-page label {
+  font-size: 18px;
+  color: #333;
+}
+
+.register-page input[type="text"],
+.register-page input[type="email"],
+.register-page input[type="tel"],
+.register-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-page button[type="submit"] {
+  padding: 12px 24px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.register-page button[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+.register-page p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-page p a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.register-page p a:hover {
+  text-decoration: underline;
+}

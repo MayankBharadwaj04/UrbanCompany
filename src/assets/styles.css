@@ -1,0 +1,104 @@
+/* Styles for the homepage */
+.homepage {
+  background-image: url("../assets/images/backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.homepage header {
+  margin-bottom: 40px;
+}
+
+
+.homepage h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.homepage p {
+  font-size: 18px;
+  color: #777;
+}
+
+.homepage .services {
+  margin-bottom: 40px;
+}
+
+.homepage .services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.homepage .service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+/* Styles for the service cards */
+.service-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service-card-content {
+  margin-top: 20px;
+}
+
+.service-card-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-card-description {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.service-card-button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.service-card-button:hover {
+  background-color: #23527c;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}

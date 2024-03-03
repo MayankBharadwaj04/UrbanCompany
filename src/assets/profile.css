@@ -1,0 +1,43 @@
+.profile-page {
+  background-image: url("../assets/images/backgroundImage.jpg");
+  object-fit:fill;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-page-title {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.booking-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align booking details to the left */
+  margin-bottom: 20px;
+}
+
+.booking-item .label-value-pair {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.underline-text {
+  text-decoration: underline;
+}
+
+.booking-item .label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+ 
+p{
+  font-weight: bold;
+
+}

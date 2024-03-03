@@ -1,0 +1,74 @@
+/* ServicesListPage.css */
+
+.services-list-page {
+    padding: 20px;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .book-now-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .book-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-now-button:focus {
+    outline: none;
+  }
+  
+  /* serviceListPage.css or create a new CSS file for search component */
+
+/* Styling the search container */
+.search-container {
+  margin-bottom: 20px;
+}
+
+/* Styling the search input field */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Adding focus styles to the search input field */
+input[type="text"]:focus {
+  border-color: #6b9ce6;
+}
+
+/* Optional: Adjust the search input size on smaller screens */
+@media (max-width: 768px) {
+  input[type="text"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

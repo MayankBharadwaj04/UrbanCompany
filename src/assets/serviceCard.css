@@ -1,0 +1,28 @@
+/* ServiceCard.css */
+
+/* Styles for the service cards */
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-title {
+    color: #333; /* Set the color to a darker shade, e.g., black (#000), or a custom color that contrasts with the background */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
